@@ -9,6 +9,7 @@ Source0:	http://savannah.nongnu.org/download/simulavr/%{name}-%{version}.tar.bz2
 # Source0-md5:	7fbf757f285ac9fd2d22604df6a9ee5f
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	crossavr-gcc
 BuildRequires:	doxygen
 BuildRequires:	ncurses-devel
 BuildRequires:	tetex
@@ -42,6 +43,7 @@ CFLAGS="%{rpmcflags} -I/usr/include/ncurses"
 
 %install
 rm -rf $RPM_BUILD_ROOT
+
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
@@ -56,9 +58,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/*
-%{_mandir}/man?/simulavr*
-%{_infodir}/*
 %doc AUTHORS ChangeLog COPYING INSTALL ProjSummary
 %doc README README.gdb README.opcodes TODO
 %doc doc/
+%attr(755,root,root) %{_bindir}/*
+%{_mandir}/man?/simulavr*
+%{_infodir}/*
