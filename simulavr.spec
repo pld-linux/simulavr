@@ -2,7 +2,7 @@ Summary:	A simulator for Atmel's AVR family of microcontrollers
 Summary(pl):	Symulator dla rodziny mikrokontrolerów Atmel's AVR
 Name:		simulavr
 Version:	0.1.2.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Debuggers
 Source0:	http://savannah.nongnu.org/download/simulavr/%{name}-%{version}.tar.bz2
