@@ -12,7 +12,6 @@ BuildRequires:	automake
 BuildRequires:	doxygen
 BuildRequires:	ncurses-devel
 BuildRequires:	tetex
-BuildRequires:	texinfo-dvips
 BuildRequires:	texinfo-texi2dvi
 Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
