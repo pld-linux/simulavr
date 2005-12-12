@@ -24,16 +24,16 @@ backend to gdb such that gdb can be used as a source level debugger.
 
 %description -l pl
 Simulavr jest symulatorem dla rodziny mikrokontrolerów Atmel AVR. Mo¿e
-byæ wykorzystywany osobno, lub jako zdalny target dla gdb.
-Gdy jest wykorzystywany jako zdalny target dla gdb, symulatorów jest 
-u¿ywany jak nak³adka na gdb tak, ¿e gdb mo¿e byæ u¿yty jako debugger
-na poziomie kodu ¼ród³owego.
+byæ wykorzystywany osobno, lub jako zdalny target dla gdb. Gdy jest
+wykorzystywany jako zdalny target dla gdb, symulatorów jest u¿ywany
+jak nak³adka na gdb tak, ¿e gdb mo¿e byæ u¿yty jako debugger na
+poziomie kodu ¼ród³owego.
 
 %prep
 %setup -q
 
 %build
-CFLAGS="%{rpmcflags} -I/usr/include/ncurses"
+CFLAGS="%{rpmcflags} -I%{_includedir}/ncurses"
 %{__aclocal}
 %{__autoconf}
 %{__automake}
