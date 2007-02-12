@@ -1,5 +1,5 @@
 Summary:	A simulator for Atmel's AVR family of microcontrollers
-Summary(pl):	Symulator dla rodziny mikrokontrolerÛw Atmel's AVR
+Summary(pl.UTF-8):   Symulator dla rodziny mikrokontroler√≥w Atmel's AVR
 Name:		simulavr
 Version:	0.1.2.1
 Release:	2
@@ -22,12 +22,12 @@ Simulavr can be used either standalone or as a remote target for gdb.
 When used as a remote target for gdb, the simulator is used as a
 backend to gdb such that gdb can be used as a source level debugger.
 
-%description -l pl
-Simulavr jest symulatorem dla rodziny mikrokontrolerÛw Atmel AVR. Moøe
-byÊ wykorzystywany osobno, lub jako zdalny target dla gdb. Gdy jest
-wykorzystywany jako zdalny target dla gdb, symulatorÛw jest uøywany
-jak nak≥adka na gdb tak, øe gdb moøe byÊ uøyty jako debugger na
-poziomie kodu ºrÛd≥owego.
+%description -l pl.UTF-8
+Simulavr jest symulatorem dla rodziny mikrokontroler√≥w Atmel AVR. Mo≈ºe
+byƒá wykorzystywany osobno, lub jako zdalny target dla gdb. Gdy jest
+wykorzystywany jako zdalny target dla gdb, symulator√≥w jest u≈ºywany
+jak nak≈Çadka na gdb tak, ≈ºe gdb mo≈ºe byƒá u≈ºyty jako debugger na
+poziomie kodu ≈∫r√≥d≈Çowego.
 
 %prep
 %setup -q
