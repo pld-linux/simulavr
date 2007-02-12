@@ -1,5 +1,5 @@
 Summary:	A simulator for Atmel's AVR family of microcontrollers
-Summary(pl.UTF-8):   Symulator dla rodziny mikrokontrolerów Atmel's AVR
+Summary(pl.UTF-8):	Symulator dla rodziny mikrokontrolerów Atmel's AVR
 Name:		simulavr
 Version:	0.1.2.1
 Release:	2
