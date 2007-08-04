@@ -1,0 +1,12 @@
+diff -urN simulavr-0.1.2.2.orig/doc/Makefile.am simulavr-0.1.2.2/doc/Makefile.am
+--- simulavr-0.1.2.2.orig/doc/Makefile.am	2003-09-27 00:07:34.000000000 +0200
++++ simulavr-0.1.2.2/doc/Makefile.am	2007-08-04 14:15:56.000000000 +0200
+@@ -48,7 +48,7 @@
+ # Rule for generating html output.
+ html: $(info_TEXINFOS) $(TARGET_DOX_HTML)
+ 	mkdir -p html
+-	texi2html -split_node $(srcdir)/$(info_TEXINFOS)
++	texi2html --output . -split_node $(srcdir)/$(info_TEXINFOS)
+ 	mv *.html html
+ 	if test -f html/simulavr.html ; then \
+ 	   cp html/simulavr.html html/index.html ; \
