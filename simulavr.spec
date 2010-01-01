@@ -15,7 +15,7 @@ BuildRequires:	doxygen
 BuildRequires:	ncurses-devel
 BuildRequires:	tetex
 BuildRequires:	texinfo-texi2dvi
-Buildroot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Simulavr is a simulator for the Atmel AVR family of microcontrollers.
