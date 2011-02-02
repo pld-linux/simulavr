@@ -65,4 +65,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc doc/
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man?/simulavr*
-%{_infodir}/*
+%{_infodir}/*.info*
