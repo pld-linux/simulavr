@@ -32,7 +32,7 @@ poziomie kodu źródłowego.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 CFLAGS="%{rpmcflags} -I/usr/include/ncurses"
